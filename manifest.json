@@ -1,0 +1,54 @@
+{
+    "dir": "ltr",
+    "lang": "ru",
+    "name": "Губанов Павел Викторович",
+    "short_name": "Губанов",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://gubanov.in.ua/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "ДЕТСКИЙ УРОЛОГ в Харькове. Лечение заболеваний БРЮШНОЙ ПОЛОСТИ, МОЧЕПОЛОВОЙ СИСТЕМЫ и ПОРОКОВ развития у новорожденных. ОСМОТР детей с заболеваниями МОЧЕПОЛОВОЙ СИСТЕМЫ",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images//favicon.ico",
+            "sizes": "32x41"
+        },
+        {
+            "src": "/images/xapple-touch-icon-144-precomposed.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/apple-touch-icon-114-precomposed.png",
+            "sizes": "114x114",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/xapple-touch-icon-72-precomposed.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/xapple-touch-icon-57-precomposed.png",
+            "type": "image/png",
+            "sizes": "57x57"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://gubanov.in.ua/[Embedded]",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "https://gubanov.in.ua/[Embedded]",
+            "sizes": "750x1334",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://gubanov.in.ua"
+}
