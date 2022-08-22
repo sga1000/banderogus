@@ -1,1 +1,306 @@
-
+html {
+	height: 100%;
+}
+body {
+    height: 100%;
+    width: 1170px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+.main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(270deg, #A5DEFF 0%, #FFF 100%);
+}
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 10px;
+}
+.logo-text {
+    margin-left: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}
+.main-page-row {
+    display: flex;
+    justify-content: flex-end;
+}
+.banderogus-container {
+    background: #ffffff;
+    padding: 60px 56px;
+    align-self: center;
+}
+.banderogus-greeting {
+    color: #1B1D1F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+	margin-left: 10px;
+}
+.banderogus-start-text {
+    color: #FF6B0A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+	margin-left: 10px;
+}
+.banderogus-title {
+    color: #1B1D1F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+	margin-left: 10px;
+}
+.banderogus-descr {
+    color: #1B1D1F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    width: 440px;
+    height: 96px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+	margin-left: 10px;    
+}
+.banderogus-launch {
+    padding: 12px 24px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+	margin-left: 10px;
+}
+.banderogus-img {
+   align-self: flex-end;
+}
+.gus-facts {
+    width: 1170px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.ukr-logo {
+    width: 32px;
+    height: 52px;
+    margin-top: 56px;
+    margin-bottom: 22px;
+}
+.gus-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.gus-descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 875px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.gus-facts-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.gus-fact-item {
+    width: 33%;
+}
+.gus-fact-img {
+	width: auto;
+}
+.gus-fact-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin: 12px 0 32px 0;
+    text-align: center;
+}
+.gus-fact-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    width: 280px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 72px;
+    align-items: center;
+}
+.banderogus-footer-content {
+    width: 1170px;
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(270deg, #A5DEFF 0%, #FFF 100%);
+    margin-bottom: 72px;
+}
+.gus-footer-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.gus-footer-descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width: 875px;
+    margin-top: 18px;
+    margin-bottom: 80px;
+}
+.ukr-footer-logo {
+    width: 32px;
+    height: 52px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	position: fixed;
+	opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-form-container {
+	background: #FFF;
+    padding: 32px 92px 60px 92px;
+	position: relative;
+}
+.modal-form-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 32px 0 12px 0;
+    display: flex;
+    align-items: center;
+    color: #1B1D1F;
+	text-align: center;
+}
+.modal-form-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px
+}
+.modal-field-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 8px;
+}
+.modal-field-input {
+    box-sizing: border-box;
+    height: 48px;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1D1F;
+    padding: 4px 8px;
+}
+.modal-form-btn {
+    padding: 12px 24px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+	margin-left: 10px;
+    margin-top: 24px;
+}
+.close-btn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    color: #1B1D1F;
+    font-size: 28px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
